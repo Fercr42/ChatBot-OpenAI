@@ -1,0 +1,23 @@
+{
+  "name": "chatbot-fullstack",
+  "version": "1.0.0",
+  "description": "ChatBot con React y Node.js",
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd vite-project && npm run dev",
+    "install-all": "npm install && cd backend && npm install && cd ../vite-project && npm install",
+    "build": "cd vite-project && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "chatbot",
+    "react",
+    "nodejs",
+    "openai"
+  ],
+  "author": "",
+  "license": "ISC"
+}
