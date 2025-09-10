@@ -7,7 +7,7 @@
     "backend": "cd backend && npm run dev",
     "frontend": "cd vite-project && npm run dev",
     "install-all": "npm install && cd backend && npm install && cd ../vite-project && npm install",
-    "build": "cd vite-project && npm run build"
+    "build": "cd vite-project && npm install && npm run build"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
